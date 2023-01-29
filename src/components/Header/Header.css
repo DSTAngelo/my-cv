@@ -1,0 +1,32 @@
+/* Header.css */
+
+.cabecera {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2%;
+    background: rgba(50, 107, 192, 0.822);
+  }
+  
+  .cabecera img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+    /*margin-right: 20px;*/
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+    -webkit-border-radius: 20%;
+}
+
+  .nombre{
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+  }
+  .mail{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+  }
