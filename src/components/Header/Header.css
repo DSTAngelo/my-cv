@@ -2,31 +2,50 @@
 
 .cabecera {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 2%;
     background: rgba(50, 107, 192, 0.822);
   }
+
+  .cabecera-uno{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+
+  }
   
   .cabecera img {
-    width: 150px;
-    height: 150px;
-    border-radius: 20%;
-    /*margin-right: 20px;*/
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 20%;
-    -ms-border-radius: 20%;
-    -o-border-radius: 20%;
-    -webkit-border-radius: 20%;
+    width: 30%;
+    height: 15%;
+    border-radius: 10%;
+    /*margin-right: 20px;
+    */-webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    -webkit-border-radius: 10%;
 }
 
   .nombre{
-    font-size: 2em;
-    font-weight: bold;
-    color: rgb(255, 255, 255);
-  }
-  .mail{
     font-size: 1.5em;
     font-weight: bold;
     color: rgb(255, 255, 255);
+    margin: 0;
+  }
+  .mail{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin: 0;
+  }
+  .description{
+    font-size: 1em;
+    font-weight: bold;
+    color: rgb(245, 232, 232);
+    margin: 20px;
+    align-items: center;
+    text-align: center;
   }
