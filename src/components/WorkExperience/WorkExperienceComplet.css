@@ -1,0 +1,89 @@
+.WorkExperienceComplet{
+    padding: 1% 2% 1% 2%;
+    
+}
+.WorkExperienceComplet-caja{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    justify-content: flex-end;
+}
+.WorkExperienceComplet-description{
+    display: flex;
+    justify-content: flex-end;
+    margin: 2% 0% 0% 0%;
+}
+
+.WorkExperienceComplet-division{
+    display: flex;
+    flex-direction: row;
+    margin-right: 3%;
+}
+
+.WorkExperienceComplet-title{
+    margin: 0%;
+}
+
+.WorkExperienceComplet-contenedor{
+    display: flex;
+    flex-direction: column;
+}
+
+.WorkExperienceComplet-division-img{
+    display: flex;
+    width: 650px;
+    height: 340px;
+    padding: 2%;
+    border-image-slice: 100%
+}
+
+.WorkExperienceComplet-imagen{
+    width: 0PX;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    padding: .5%;
+}
+
+.WorkExperienceComplet-imagen:hover{
+    box-shadow: 0px 30px 50px -11px #6bc4f0;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    width: 450px;
+    opacity: 1;
+    filter:contrast(100%);
+    -webkit-filter:contrast(100%);
+    -webkit-transition: border-radius 2s;
+}
+
+.WorkExperienceComplet-division-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.WorkExperienceComplet-button{
+    width: 200px;
+    height: 50px;
+    background: rgba(96, 135, 194, 0.822);
+    color: #fff;
+    border: none;
+} 
+
+.WorkExperienceComplet-button:hover{
+    background: #6bc4f0;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 0px 20px 30px -11px #6bc4f0;
+    transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+} 

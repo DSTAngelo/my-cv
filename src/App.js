@@ -10,9 +10,9 @@ import Hobbies from "./components/Hobbies/Hobbies";
 import Education from './components/Education/Education';
 import Educationtwo from "./components/Education/Educationtwo";
 import WorkExperience from "./components/WorkExperience/WorkExperience";
-import WorkExperienceTwo from "./components/WorkExperience/WorkExperienceTwo";/*
-import Education from './components/Education'
-import References from './components/References' */
+import WorkExperienceTwo from "./components/WorkExperience/WorkExperienceTwo";
+import WorkExperienceComplet from "./components/WorkExperience/WorkExperienceComplet";
+
 
 function App() {
   return (
@@ -26,6 +26,7 @@ function App() {
       <Educationtwo />
       <WorkExperience />
       <WorkExperienceTwo />
+      <WorkExperienceComplet />
       <Separator />
     </div>
   );
