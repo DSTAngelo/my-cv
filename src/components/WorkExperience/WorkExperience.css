@@ -1,5 +1,5 @@
 .experience{
-    padding: 2%;
+    padding: 2% 2% 0% 2%;
 }
 .experience-caja{
     display: flex;
@@ -76,3 +76,29 @@
     -ms-transition: all 0.1s ease-in-out;
     -o-transition: all 0.1s ease-in-out;
 } 
+
+.toggle-button{
+  background: rgba(96, 135, 194, 0.822);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 0px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+}
+.toggle-button:hover{
+  transition: all 0.8s ease-in-out;
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -ms-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+  background: #6bc4f0;
+}

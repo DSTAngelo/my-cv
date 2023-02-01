@@ -1,5 +1,6 @@
 .experiencetwo{
-    padding: 2%;
+    padding: 1% 2% 1% 2%;
+    
 }
 .experiencetwo-caja{
     display: flex;
@@ -10,12 +11,17 @@
 .experiencetwo-description{
     display: flex;
     justify-content: flex-end;
+    margin: 2% 0% 0% 0%;
 }
 
 .experiencetwo-division{
     display: flex;
     flex-direction: row;
-    margin: 0;
+    margin-right: 3%;
+}
+
+.experiencetwo-title{
+    margin: 0%;
 }
 
 .experiencetwo-contenedor{

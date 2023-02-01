@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState} from "react";
 import "./WorkExperienceTwo.css";
 import ahorcadoA from "./Imagenes/ahorcadoA.png";
 import ahorcadoB from "./Imagenes/ahorcadoB.png";
@@ -21,10 +21,20 @@ const WorkExperienceTwo = (
   descriptionOne = `Juego Ahorcado Oscuro Desktop - Movil`;
   descriptionTwo = `Juego`;
 
+  const [isExpanded, setIsExpanded] = useState(false);
 
   return (
     <div className="experiencetwo">
       <h2 className="experiencetwo-title">{title}</h2>
+      <button
+        className="toggle-button"
+        onClick={() => setIsExpanded(!isExpanded)}
+      >
+        {isExpanded
+          ? "▼"
+          : "Juego Ahorcado Oscuro Desktop - Movil"}
+      </button>
+      {isExpanded && (
       <div className="experiencetwo-lista">
         <h4 className="experiencetwo-description">{descriptionOne}</h4>
         <div className="experiencetwo-caja">
@@ -52,6 +62,7 @@ const WorkExperienceTwo = (
           </figure>
         </div>
       </div>
+      )}
     </div>
   );
 };
