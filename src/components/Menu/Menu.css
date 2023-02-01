@@ -20,8 +20,12 @@
 }
 
 .menu li:hover {
-  background-color: lightgray;
-  
+  background-color: #eaf2fd;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu-efect:hover{
+  box-shadow: 0px 10px 20px -11px #6bc4f0;
   transition: all 0.3s ease-in-out;
 }
 

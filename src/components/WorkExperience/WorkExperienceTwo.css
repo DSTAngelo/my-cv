@@ -1,25 +1,29 @@
-.experience{
+.experiencetwo{
     padding: 2%;
 }
-.experience-caja{
+.experiencetwo-caja{
     display: flex;
     flex-direction: row;
     margin: 0;
-    justify-content: flex-start;
+    justify-content: flex-end;
+}
+.experiencetwo-description{
+    display: flex;
+    justify-content: flex-end;
 }
 
-.experience-division{
+.experiencetwo-division{
     display: flex;
     flex-direction: row;
     margin: 0;
 }
 
-.experience-contenedor{
+.experiencetwo-contenedor{
     display: flex;
     flex-direction: column;
 }
 
-.experience-division-img{
+.experiencetwo-division-img{
     display: flex;
     width: 650px;
     height: 340px;
@@ -27,7 +31,7 @@
     border-image-slice: 100%
 }
 
-.experience-imagen{
+.experiencetwo-imagen{
     width: 0PX;
     flex-grow: 1;
     object-fit: cover;
@@ -40,7 +44,7 @@
     padding: .5%;
 }
 
-.experience-imagen:hover{
+.experiencetwo-imagen:hover{
     box-shadow: 0px 30px 50px -11px #6bc4f0;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
@@ -48,16 +52,17 @@
     opacity: 1;
     filter:contrast(100%);
     -webkit-filter:contrast(100%);
+    -webkit-transition: border-radius 2s;
 }
 
-.experience-division-button{
+.experiencetwo-division-button{
     display: flex;
     align-items: center;
     justify-content: space-around;
     align-content: center;
 }
 
-.experience-button{
+.experiencetwo-button{
     width: 200px;
     height: 50px;
     background: rgba(96, 135, 194, 0.822);
@@ -65,7 +70,7 @@
     border: none;
 } 
 
-.experience-button:hover{
+.experiencetwo-button:hover{
     background: #6bc4f0;
     color: #fff;
     font-weight: bold;

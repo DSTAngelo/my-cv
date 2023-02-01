@@ -7,22 +7,22 @@ function Menu() {
   return (
     <nav>
       <ul className={`menu ${isHidden ? "hidden" : ""}`}>
-        <li>
+        <li className="menu-efect">
           <a href="#sobremi">Sobre Mi</a>
         </li>
-        <li>
+        <li className="menu-efect">
           <a href="#skill">Skill</a>
         </li>
-        <li>
+        <li className="menu-efect">
           <a href="#hobbies">Hobbies</a>
         </li>
-        <li>
+        <li className="menu-efect">
           <a href="#formacion">Formación</a>
         </li>
-        <li>
+        <li className="menu-efect">
           <a href="#experiencia">Experiencia</a>
         </li>
-        <li>
+        <li className="menu-efect">
           <a href="#contacto">Contacto</a>
         </li>
       </ul>
