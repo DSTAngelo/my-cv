@@ -12,7 +12,7 @@ import Educationtwo from "./components/Education/Educationtwo";
 import WorkExperience from "./components/WorkExperience/WorkExperience";
 import WorkExperienceTwo from "./components/WorkExperience/WorkExperienceTwo";
 import WorkExperienceComplet from "./components/WorkExperience/WorkExperienceComplet";
-
+import ContactForm from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -27,6 +27,7 @@ function App() {
       <WorkExperience />
       <WorkExperienceTwo />
       <WorkExperienceComplet />
+      <ContactForm />
       <Separator />
     </div>
   );

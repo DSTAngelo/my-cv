@@ -51,7 +51,7 @@
     left: 0;
     bottom: 0;
     right: 0;
-    background: rgba(141, 201, 230, 0.9);
+    /* background: rgba(141, 201, 230, 0.9); */
     text-align: center;
     font-size: 1.2rem;
     color: #070000;
@@ -59,12 +59,13 @@
 
 .education-contenedor:hover .figcaption{
     display: block;
+    background: rgba(141, 201, 230, 0.9);
+    transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
     box-shadow: 0px 20px 40px -11px #6bc4f0;
-    transition: all 0.15s ease-in-out;
-    -webkit-transition: all 0.15s ease-in-out;
-    -moz-transition: all 0.15s ease-in-out;
-    -ms-transition: all 0.15s ease-in-out;
-    -o-transition: all 0.15s ease-in-out;
     display: flex;
 }
 
